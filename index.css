@@ -1,0 +1,108 @@
+#baner{
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+    border: 1px solid white;
+    background: white;
+    }
+    #menu{
+    width: 100%;
+    max-width: 1500px;
+    height: 41px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(130, 168, 239);
+    color: white;
+    }
+    #main #center{
+    margin-left: 201px;
+    width: 100%;
+    max-width: 1500px;
+    min-height: 480px;
+    }
+
+    #main #left{
+    text-indent: 10px;
+    width: 100%;
+    max-width: 200px;
+    min-height: 480px;
+    border: 1px solid black;
+    background-color: gainsboro;
+    line-height: 30px;
+    float: left;
+    }
+    #main #left a{
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+    font-size: 15px;
+    }
+    #main {
+    width: 100%;
+    max-width: 1500px;
+    background: white;
+    border-right: 1px solid green;
+    float: left;
+    }
+    #footer{
+    width: 100%;
+    max-width: 1500px;
+    min-height: 70px;
+    border: 1px solid black;
+    background-color: rgb(114, 158, 239);
+    text-align: center;
+    clear: left;
+    color: black;
+    padding-top: 10px;
+    }
+    #menu ul{
+    width:100%;
+    max-width: 1500px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    }
+
+    #menu li{
+    border-right: 1px solid rgb(222, 217, 217);
+    font-size: large;
+    white-space: nowrap;
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    }
+    #menu a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding: 0px 20px 0px 20px;
+    }
+
+    #main li {
+    white-space: nowrap;
+    list-style: none;
+    text-decoration: none;
+    }
+    #menu li:hover{
+    background-color: white;
+    }
+    #logo {
+        width: 100%;
+        max-width: 980px;
+        height: 90px;
+    }
+    #hinhanh{
+        width:800px;
+        height:350px;
+    }
+   #main #center{
+        position:absolute;
+        max-width: 1300px;
+        min-height: 480px;
+        
+    }
+    #center{
+        background-color: ghostwhite;
+    }
